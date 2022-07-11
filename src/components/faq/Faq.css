@@ -1,0 +1,189 @@
+section.faq-section {
+  padding: 60px 0;
+}
+
+.faq {
+  text-align: left;
+}
+
+.accordion {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.panel {
+  color: #6c6c6c;
+  font-size: 16px;
+}
+
+.accordion {
+  color: #444;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #cccccc14;
+}
+
+.accordion .accordion-item {
+  border-left: 0px;
+  border-right: 0px;
+  padding-bottom: 27px;
+}
+
+.accordion-item:last-child {
+  border-bottom: 0px solid transparent !important;
+}
+
+ul.navbar {
+  cursor: pointer;
+}
+
+.header-left {
+  cursor: pointer;
+}
+
+.accordion .accordion-item button.accordion-button {
+  font-size: 28px;
+  padding: 54px 18px 27px 18px;
+}
+
+.accordion-header {
+  margin-bottom: 0;
+}
+
+.accordion-item {
+  background-color: #fff;
+  border-top: 2px solid rgba(0, 0, 0, 0.125) !important;
+  border-bottom: 0px solid !important;
+}
+
+.accordion-item:first-child {
+  border-top: 0px !important;
+}
+
+.accordion-body {
+  font-size: 18px;
+  color: #6c6c6c;
+  padding: 0 0.25rem 1rem 1.25rem !important;
+}
+
+.faq-section .faq .accordion .accordion-button:focus,
+.faq-section .faq .accordion .accordion-button:not(.collapsed) {
+  z-index: 0;
+  border-color: transparent !important;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0rem rgba(13, 110, 253, 0.25) !important;
+          box-shadow: 0 0 0 0rem rgba(13, 110, 253, 0.25) !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #444 !important;
+  background-color: transparent !important;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+
+.accordion:after {
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.accordion-button::after {
+  background-image: url("../../images/plus-icon.png") !important;
+  background-size: 100% 100% !important;
+  width: 42px !important;
+  height: 42px !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../../images/minus.png") !important;
+}
+
+.accordion span {
+  margin-left: auto;
+  float: right;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+}
+
+.banner-bottom {
+  background-color: #e8f7ff;
+  height: 51px;
+  width: 100%;
+  margin-top: 66px;
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1299px) {
+  h2.banner-heading {
+    font-size: 60px;
+  }
+  h2.banner-heading {
+    font-size: 60px;
+  }
+  .accordion .accordion-item button.accordion-button {
+    font-size: 22px;
+  }
+  .accordion-body {
+    font-size: 15px;
+  }
+  .social-fixed-icons {
+    right: -23px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h2.banner-heading {
+    font-size: 27px;
+  }
+  .accordion .accordion-item button.accordion-button {
+    font-size: 18px;
+    padding: 15px;
+  }
+  .accordion-body {
+    font-size: 13px;
+  }
+  .lsdp-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .logo-options {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  ul.other-options {
+    padding: 0;
+    display: block;
+  }
+  ul.other-options li {
+    padding: 3px 21px;
+  }
+  .footer-right {
+    width: 100%;
+  }
+  .accordion-button::after {
+    height: 23px !important;
+    width: 23px !important;
+  }
+}
+/*# sourceMappingURL=Faq.css.map */

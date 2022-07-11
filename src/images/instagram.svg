@@ -1,0 +1,11 @@
+<svg id="Component_7_1" data-name="Component 7 – 1" xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+  <g id="Ellipse_5" data-name="Ellipse 5" fill="#fff" stroke="#c121bb" stroke-width="2">
+    <circle cx="27" cy="27" r="27" stroke="none"/>
+    <circle cx="27" cy="27" r="26" fill="none"/>
+  </g>
+  <g id="Group_10" data-name="Group 10" transform="translate(12.586 12.67)">
+    <path id="Path_56" data-name="Path 56" d="M1000.364,1020.88H988.271a8.293,8.293,0,0,1-8.284-8.284V1000.5a8.293,8.293,0,0,1,8.284-8.284h12.093a8.293,8.293,0,0,1,8.284,8.284V1012.6a8.293,8.293,0,0,1-8.284,8.284M988.271,995.1a5.406,5.406,0,0,0-5.4,5.4V1012.6a5.406,5.406,0,0,0,5.4,5.4h12.093a5.406,5.406,0,0,0,5.4-5.4V1000.5a5.406,5.406,0,0,0-5.4-5.4Z" transform="translate(-979.987 -992.22)" fill="#c121bb"/>
+    <path id="Path_57" data-name="Path 57" d="M1080.78,1100.266a7.254,7.254,0,1,1,7.254-7.254,7.262,7.262,0,0,1-7.254,7.254m0-12.1a4.844,4.844,0,1,0,4.844,4.844,4.85,4.85,0,0,0-4.844-4.844" transform="translate(-1066.449 -1078.683)" fill="#c121bb"/>
+    <path id="Path_58" data-name="Path 58" d="M1248.2,1060.344a1.691,1.691,0,1,1-1.691-1.691,1.691,1.691,0,0,1,1.691,1.691" transform="translate(-1224.787 -1053.627)" fill="#c121bb"/>
+  </g>
+</svg>
