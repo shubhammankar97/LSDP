@@ -75,16 +75,40 @@ const Footer = () => {
         <div className="social-media">
           <ul type="none">
             <li>
-              <img className="youtube" alt="" src={youtube} />
+              <a
+                target="_blank"
+                href="https://www.youtube.com/channel/UCokOkvNzuuBSAeuPYUS5DZA/featured"
+                rel="noreferrer"
+              >
+                <img className="youtube" alt="" src={youtube} />
+              </a>
             </li>
             <li>
-              <img className="twitter" alt="" src={twitter} />
+              <a
+                target="_blank"
+                href="https://twitter.com/LagosMepb"
+                rel="noreferrer"
+              >
+                <img className="twitter" alt="" src={twitter} />
+              </a>
             </li>
             <li>
-              <img className="facebook" alt="" src={facebook} />
+              <a
+                target="_blank"
+                href="https://web.facebook.com/lagosmepb"
+                rel="noreferrer"
+              >
+                <img className="facebook" alt="" src={facebook} />
+              </a>
             </li>
             <li>
-              <img className="instagram" alt="" src={instagram} />
+              <a
+                target="_blank"
+                href="https://www.instagram.com/lagosmepb/"
+                rel="noreferrer"
+              >
+                <img className="instagram" alt="" src={instagram} />
+              </a>
             </li>
           </ul>
         </div>
@@ -129,16 +153,40 @@ const Footer = () => {
               <div className="social-media">
                 <ul type="none">
                   <li>
-                    <img className="youtube" alt="" src={youtube} />
+                    <a
+                      target="_blank"
+                      href="https://www.youtube.com/channel/UCokOkvNzuuBSAeuPYUS5DZA/featured"
+                      rel="noreferrer"
+                    >
+                      <img className="youtube" alt="" src={youtube} />
+                    </a>
                   </li>
                   <li>
-                    <img className="twitter" alt="" src={twitter} />
+                    <a
+                      target="_blank"
+                      href="https://twitter.com/LagosMepb"
+                      rel="noreferrer"
+                    >
+                      <img className="twitter" alt="" src={twitter} />
+                    </a>
                   </li>
                   <li>
-                    <img className="facebook" alt="" src={facebook} />
+                    <a
+                      target="_blank"
+                      href="https://web.facebook.com/lagosmepb"
+                      rel="noreferrer"
+                    >
+                      <img className="facebook" alt="" src={facebook} />
+                    </a>
                   </li>
                   <li>
-                    <img className="instagram" alt="" src={instagram} />
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/lagosmepb/"
+                      rel="noreferrer"
+                    >
+                      <img className="instagram" alt="" src={instagram} />
+                    </a>
                   </li>
                 </ul>
               </div>

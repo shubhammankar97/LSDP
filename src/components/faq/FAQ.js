@@ -7,6 +7,10 @@ import Header from "../header/Header";
 import MobileNavbar from "../header/MobileNavbar";
 
 const Faq = () => {
+  const dwnlsec = () => {
+    localStorage.setItem("download-key", "true");
+    window.location.href = "/";
+  };
   return (
     <>
       <Header />
@@ -137,7 +141,7 @@ const Faq = () => {
                     You can find different versions of the LSDP 2052 on this
                     website under 'Resources'.{" "}
                   </div>
-                  <span className="red-circle">Download</span>
+                  <span className="red-circle" onClick={dwnlsec}>Download</span>
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>

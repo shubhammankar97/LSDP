@@ -34,7 +34,7 @@ span.dark {
   margin-bottom: 20px;
 }
 .dimesion-2 {
-  margin-top: 100px;
+  margin-top: 40px;
 }
 .dimesion-3 {
   margin-top: 70px;
@@ -83,8 +83,11 @@ section.blue-sction {
   text-align: left;
   justify-content: space-between;
   border-bottom: 1px solid #fff;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
   align-items: center;
+}
+.four-dimensions:last-child {
+  border-bottom: none;
 }
 ul.navbar a {
   color: #1f265a;
@@ -202,6 +205,24 @@ img.dimension-image {
 }
 // Mobile
 @media only screen and (max-width: 600px) {
+  .dark-text-mobile {
+    height: 70px !important;
+  }
+  .support-plan-left {
+    margin-right: 20px;
+  }
+  .plan-support-2-mobile {
+    flex-direction: row-reverse;
+  }
+  .plan-support-2-mobile {
+    .support-plan-heading {
+      text-align: right;
+    }
+    .support-plan-left {
+      margin-right: 0;
+      margin-left: 20px;
+    }
+  }
   .plan-objective {
     flex-direction: column;
   }
@@ -217,6 +238,7 @@ img.dimension-image {
 
   .plan-section-left {
     width: 100%;
+    margin-bottom: 30px;
   }
 
   .plan-section-right {
@@ -240,10 +262,10 @@ img.dimension-image {
 
   .four-dimensions {
     flex-direction: column;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
   }
   .dimesion-2 {
-    margin-top: 50px;
+    margin-top: 40px;
   }
   .dimensions-content {
     width: 100%;
@@ -253,6 +275,7 @@ img.dimension-image {
     width: 266px;
     height: 266px;
     border: 18px solid #1d336a;
+    margin-top: 20px;
   }
 
   img.dimension-image {
@@ -275,16 +298,11 @@ img.dimension-image {
     font-size: 23px;
   }
 
-  h6.desc-heading {
-    font-size: 18px;
-    height: 31px;
-  }
-
   p.desc {
     font-size: 12px;
   }
   .desc-content {
-    width: 88%;
+    width: 100%;
   }
   .footer-left {
     width: 98%;
@@ -298,5 +316,33 @@ img.dimension-image {
 
   .support-plan-left img {
     height: 66px;
+  }
+  img.bullet-point {
+    height: 7px;
+  }
+  ul.bulllet-section li {
+    padding-left: 20px;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  .learn {
+    color: #d2473d;
+    font-weight: 800;
+    margin-top: 0px;
+    font-size: 12px;
+  }
+  h6.heading-dimen {
+    margin-bottom: 0;
+  }
+  h6.desc-heading {
+    margin-bottom: 15px;
+    height: auto !important;
+    font-size: 18px;
+  }
+  h4.dimesions-heading {
+    padding: 30px 0;
+  }
+  .plan-support-2-mobile .support-plan-heading {
+    text-align: inherit;
   }
 }

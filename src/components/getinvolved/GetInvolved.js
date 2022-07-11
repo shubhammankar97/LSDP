@@ -40,7 +40,7 @@ const GetInvolved = () => {
                   </h2>
                 </div>
               </div>
-              <p className="dark-text">
+              <p className="dark-text dark-text-mobile">
                 Actively support the development plan objectives by signing up
                 and participating in LSDP programs by:
               </p>
@@ -56,8 +56,8 @@ const GetInvolved = () => {
                   <span>
                     <img className="bullet-point" alt="" src={bullet} />
                   </span>
-                  Paying your taxes to benefit from more government services
-                  <p className="learn">LEARN MORE &gt; </p>
+                  Paying your taxes to benefit from more government services&nbsp;&nbsp;
+                  <a href="https://lirs.gov.ng/" target="_blank" className="learn" rel="noreferrer">LEARN MORE &gt; </a>
                 </li>
                 <li>
                   <span>
@@ -69,7 +69,7 @@ const GetInvolved = () => {
               </ul>
             </div>
             <div className="plan-section-right">
-              <div className="plan-support">
+              <div className="plan-support plan-support-2-mobile">
                 <div className="support-plan-left">
                   <img alt="" src={accountabilityImg} />
                 </div>
@@ -89,8 +89,8 @@ const GetInvolved = () => {
                   <span>
                     <img alt="" className="bullet-point" src={bullet} />
                   </span>
-                  Leveraging citizens engagement platforms to seek feedback
-                  <p className="learn">LEARN MORE &gt; </p>
+                  Leveraging citizens engagement platforms to seek feedback&nbsp;&nbsp;
+                  <a href="http://citizensgate.lagosstate.gov.ng/" target="_blank" className="learn" rel="noreferrer">LEARN MORE &gt; </a>
                 </li>
                 <li>
                   <span>

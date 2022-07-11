@@ -49,7 +49,8 @@ img.logoheader {
 
 img#menumobile {
   margin-top: 27px;
-  height: 24px;
+  height: 18px;
+  margin-right: 31px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -58,11 +59,11 @@ img#menumobile {
   }
   #mobile-screen {
     border-bottom: 1px solid #80808061;
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 3;
     background: #fff;
+    width: 100%;
   }
   a.whiteheader-links:hover {
     color: #fff;

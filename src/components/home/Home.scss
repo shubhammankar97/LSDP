@@ -241,7 +241,7 @@ h5.lsdp-objective-title {
   color: #002060;
   font-size: 44px;
   text-align: left;
-  margin: 80px 0 50px 0;
+  margin: 80px 0 80px 0;
   font-family: "Poppins";
   font-weight: 600;
 }
@@ -302,6 +302,7 @@ h5.resource-heading {
   font-size: 22px;
   font-family: "Poppins";
   font-weight: 600;
+  margin-bottom: 30px;
 }
 
 .resource-download {
@@ -549,8 +550,33 @@ footer {
 }
 // Mobile
 @media only screen and (max-width: 600px) {
+  .lagos-img-section .third-img {
+    width: auto;
+    max-width: 275px;
+  }
+  .red-circle-download {
+    background: #d2473d;
+    display: inline-flex;
+    max-height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 16px;
+    color: #fff;
+    text-align: center;
+    border-radius: 27px;
+    cursor: pointer;
+  }
+  .red-circle-download span {
+    font-size: 13px;
+    padding-left: 9px;
+  }
+
+  .page-body.margin-top section.lsdp-section:first-child {
+    padding-top: 0;
+  }
   .lagos-step {
     flex-direction: column;
+    margin-top: 80px;
   }
   .desktop-margin-view {
     display: none;
@@ -560,12 +586,13 @@ footer {
   }
 
   img.enlarge {
-    transform: scale(1.1);
+    transform: scale(1);
     width: 100%;
     margin-top: 22px;
   }
   p.lagos-content {
     padding-bottom: 11px;
+    padding-right: 0;
   }
 
   .lagos-state-content.fade-in.appear {
@@ -581,7 +608,7 @@ footer {
   }
 
   h1.lagos-title-small {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   h6.heading-mega-city {
@@ -629,10 +656,11 @@ footer {
     display: none;
   }
   .item.resources-card {
+    margin-top: 20px;
     width: 250px;
     flex-direction: column;
-    height: 470px;
-    transform: translate(32%, 0%);
+    height: 585px;
+    transform: translate(27%, 0%);
   }
 
   .resource-left {
@@ -640,17 +668,17 @@ footer {
   }
 
   .resource-left img {
-    height: 215px;
+    height: 300px;
     width: 250px;
   }
 
   h5.resource-heading {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   p.resource-content {
     font-size: 13px;
-    height: 100px;
+    min-height: 120px;
   }
 
   .resource-download {
@@ -675,10 +703,53 @@ footer {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
   }
-  .owl-carousel .owl-stage-outer {
-    height: 500px;
+  .resources-card .owl-carousel .owl-stage-outer {
+    height: 600px;
   }
   .owl-theme .owl-nav {
     display: none;
+  }
+  footer {
+    ul.other-options li {
+      padding: 3px 12px;
+    }
+    ul.other-options li a {
+      color: #1f265a;
+      text-decoration: none;
+      font-size: 14px;
+    }
+  }
+  p.copyright {
+    color: #2f2f2f;
+    font-size: 14px;
+    margin-top: 32px;
+    padding: 0 12px;
+  }
+  img.back-btn {
+    width: 100px;
+    height: auto;
+  }
+  .social-media li img {
+    width: 40px;
+    margin-left: 30px;
+  }
+  .social-media {
+    display: flex;
+    justify-content: space-between;
+    // height: 150px;
+  }
+  .footer-right .social-media {
+    margin-bottom: 80px;
+  }
+  section.lsdp-section {
+    padding-bottom: 20px;
+  }
+  .lsdp-section:nth-child(2) .lagos-step,
+  .lsdp-section:nth-child(3) .lagos-step {
+    margin-top: 10px;
+  }
+  #blue-menu-sections li .red-circle {
+    display: table;
+    margin-top: 15px;
   }
 }

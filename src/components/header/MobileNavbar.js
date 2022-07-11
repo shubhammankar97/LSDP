@@ -20,6 +20,12 @@ const MobileNavbar = () => {
     $("#blue-menu-sections").toggle();
     $(".whitebar").toggle();
   };
+
+  const goToDownload = () => {
+    onClickMenuMobile();
+    localStorage.setItem("download-key", "true")
+    window.location.href = "/";
+  }
   return (
     <>
       <div className="mobile-nav-bar mobile" id="mobile-screen">
@@ -59,11 +65,11 @@ const MobileNavbar = () => {
             <a className="whiteheader-links" href="/faq">
               <li>FAQ</li>
             </a>
-            <a className="whiteheader-links" href="#download-resource">
+            {/* <a className="whiteheader-links" href="/#download-resource"> */}
               <li>
-                <div className="red-circle">Download Resources</div>
+                <div className="red-circle" onClick={goToDownload}>Download Resources</div>
               </li>
-            </a>
+            {/* </a> */}
           </ul>
         </div>
       </div>

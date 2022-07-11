@@ -25,7 +25,7 @@ const Objectives = (props) => {
                 <div className="objective-right">
                   <h3 className="object-sno">{obj.sno}</h3>
                   <h4 className="object-heading">{obj.title}</h4>
-                  <h5 className="object-subheading">{obj.subtitle}</h5>
+                  <h5 className="object-subheading">{obj.initiative}</h5>
                   <p className="object-desc">{obj.desc}</p>
                 </div>
               </div>

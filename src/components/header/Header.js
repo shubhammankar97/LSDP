@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import logo from "../../images/logo.png";
 import "./Header.css";
 
-const Header = () => {
+const Header = (props) => {
   useEffect(() => {
     const urlParts = window.location.pathname.split("/");
     const currentPage = urlParts[1];

@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.03d866fd.css",
+    "main.js": "/static/js/main.189ac174.js",
+    "static/js/27.ba1d5796.chunk.js": "/static/js/27.ba1d5796.chunk.js",
+    "static/media/banner2.png": "/static/media/banner2.a22cf284abdfe59bed76.png",
+    "static/media/banner-involved.png": "/static/media/banner-involved.e84724fc9b9e1e450408.png",
+    "static/media/section-img1.png": "/static/media/section-img1.29e709a0238e0e97c9cc.png",
+    "static/media/section-img2.png": "/static/media/section-img2.2b8c1324b2432f1ad3f8.png",
+    "static/media/dimesion3.png": "/static/media/dimesion3.ba3c527726456cbace41.png",
+    "static/media/dimesion1.png": "/static/media/dimesion1.1cb6c1635908dc4e24c7.png",
+    "static/media/dimesion2.png": "/static/media/dimesion2.feeb900bbe379d1776cc.png",
+    "static/media/abc.pdf": "/static/media/abc.5fb6c7e76bf1febbf61a.pdf",
+    "static/media/dimesion4.png": "/static/media/dimesion4.9aebf9d857946bd2fea9.png",
+    "static/media/obj1.png": "/static/media/obj1.7ead7f7b5f0e8f29b551.png",
+    "static/media/obj4.png": "/static/media/obj4.540aad99d1a38e539c53.png",
+    "static/media/obj2.png": "/static/media/obj2.7940c64e20ad27e8f295.png",
+    "static/media/obj3.png": "/static/media/obj3.adc6ed75b269d05e8b35.png",
+    "static/media/section-img3.png": "/static/media/section-img3.4fa91be14e332fa8462a.png",
+    "static/media/resource3.png": "/static/media/resource3.88a939cbe11a50af7427.png",
+    "static/media/resource4.png": "/static/media/resource4.d071e6f595ab49bfc555.png",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Bold.ttf": "/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/mega-city-section.png": "/static/media/mega-city-section.3375a6176ba56a3d3f8e.png",
+    "static/media/resource1.png": "/static/media/resource1.f2a5339f51368b65b708.png",
+    "static/media/logo.png": "/static/media/logo.a4f28695bdcfa5bb58e3.png",
+    "static/media/support-plan.png": "/static/media/support-plan.b762021ef8fa989e2ca2.png",
+    "static/media/mobile-log.png": "/static/media/mobile-log.0354aeadef79fb0de852.png",
+    "static/media/instagram.svg": "/static/media/instagram.96dc983a17f68d88b253dbe2eee9345a.svg",
+    "static/media/youtube.svg": "/static/media/youtube.eaef79b7e575e00cc8f70e9fec7aa44e.svg",
+    "static/media/twitter.svg": "/static/media/twitter.d8fb4f22b26d0dcc54b9cd25336c9a31.svg",
+    "index.html": "/index.html",
+    "static/media/facebook.svg": "/static/media/facebook.a3bea5ac00526c54afb42e57d2cff1a3.svg"
+  },
+  "entrypoints": [
+    "static/css/main.03d866fd.css",
+    "static/js/main.189ac174.js"
+  ]
+}
