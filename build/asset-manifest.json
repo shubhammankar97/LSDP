@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.03d866fd.css",
-    "main.js": "/static/js/main.189ac174.js",
+    "main.js": "/static/js/main.11d09420.js",
     "static/js/27.ba1d5796.chunk.js": "/static/js/27.ba1d5796.chunk.js",
     "static/media/banner2.png": "/static/media/banner2.a22cf284abdfe59bed76.png",
     "static/media/banner-involved.png": "/static/media/banner-involved.e84724fc9b9e1e450408.png",
@@ -23,6 +23,7 @@
     "static/media/Poppins-Bold.ttf": "/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
     "static/media/mega-city-section.png": "/static/media/mega-city-section.3375a6176ba56a3d3f8e.png",
     "static/media/resource1.png": "/static/media/resource1.f2a5339f51368b65b708.png",
+    "service-worker.js": "/service-worker.js",
     "static/media/logo.png": "/static/media/logo.a4f28695bdcfa5bb58e3.png",
     "static/media/support-plan.png": "/static/media/support-plan.b762021ef8fa989e2ca2.png",
     "static/media/mobile-log.png": "/static/media/mobile-log.0354aeadef79fb0de852.png",
@@ -34,6 +35,6 @@
   },
   "entrypoints": [
     "static/css/main.03d866fd.css",
-    "static/js/main.189ac174.js"
+    "static/js/main.11d09420.js"
   ]
 }
